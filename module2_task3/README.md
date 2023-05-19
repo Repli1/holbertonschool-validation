@@ -20,4 +20,4 @@
 
 - make unit-tests: Runs the unit tests.
 
-- make integrations-tests: Runs the integration tests.
+- make integration-tests: Runs the integration tests.
