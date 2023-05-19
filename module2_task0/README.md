@@ -12,4 +12,6 @@
 
 - make clean: Stops the program and deletes the binary and log files.
 
+- make test: Tests the program.
+
 - make help: Shows help.
