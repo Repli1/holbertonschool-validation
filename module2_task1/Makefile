@@ -12,7 +12,6 @@ stop: ## Stops the program
 	@pkill awesome-api
 
 clean: ## Stops the program and removes the binary and log files
-	@pkill awesome-api
 	@rm -rf awesome-api awesome-api.log
 
 test: ## Tests the program
