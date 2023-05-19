@@ -2,7 +2,7 @@ build: ## Builds the website
 	@go build -o awesome-api
 
 run: ## Removes the dist directory
-	@./awesome-api >/.awesome-api.log 2>&1 &
+	@./awesome-api >./awesome-api.log 2>&1 &
 
 stop: ## Stops the program
 	@pkill awesome-api
