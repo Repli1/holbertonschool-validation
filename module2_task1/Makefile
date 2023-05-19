@@ -1,7 +1,8 @@
 lint: ## Troubleshoots lint.
 	@golang.ci-lint run
 
-build: lint ## Builds the website
+build: ## Builds the website
+	@make lint
 	@go build -o awesome-api
 
 run: ## Removes the dist directory
