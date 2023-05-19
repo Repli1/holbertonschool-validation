@@ -23,4 +23,4 @@ unit-tests: ## Runs the unit tests
 	@go test -v -short -coverprofile=coverage-units.out
 
 integration-tests: ## Runs the integration tests
-	@go test -v -coverprofile=coverage-units.out
+	@go test -v -coverprofile=coverage-integrations.out
